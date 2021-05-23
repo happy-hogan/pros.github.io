@@ -46,8 +46,8 @@ function switchTheme(e) {
         isDarkModeOn.innerHTML = `Dark Mode Enabled`;
     }
     else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light'); //add this
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
         $("#btn-outline1").removeClass('btn-outline-light').addClass('btn-outline-dark');
         $("#btn-outline2").removeClass('btn-outline-light').addClass('btn-outline-dark');
         isDarkModeOn.innerHTML = `Light Mode On`;
